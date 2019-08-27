@@ -1,0 +1,11 @@
+#aboutName {
+    text-align: center
+}
+#aboutLogo {
+    display: block;
+    margin: 0 auto;
+}
+#aboutDescription {
+    text-align: center;
+    margin: 20px;
+}

@@ -1,22 +1,40 @@
 body {
-    background-color: pink;
+    background-color: lightgray;
     margin: 0;
 }
 /* Targeting a class in CSS - every element wiht the class of header will recieve theres CSS rules */
 .header {
-    background-color: white;
+    background-color: darkred;
     overflow: hidden;
 }
+/* These CSS rules will be applied when he/she hover over an anchor element inside of an element using the header tag */
+.header a:hover {
+   background-color: lightgray;
+}
+
 .headerLink {
     padding: 5px 10px;
     text-decoration: none;
-    color: darkred;
+    color: #ffffff;
+    /* background-color: #8e2bff; */
+    /* Red: f * f= 15 * 15= 255
+    Blue: f * f = 15 * 15* = 255
+    Green: f * f = 15 * 15 = 255
+    255, 255, 255 */
     font-size: 18pt;
 }
+
+
 /* Target an ID in CSS - the elementwith the Id of homeLink will recieve theses CSS rules */
 #homeLink {
     float: left;
 }
+
+
 #aboutLink {
+    float: right;
+}
+
+#contactLink {
     float: right;
 }

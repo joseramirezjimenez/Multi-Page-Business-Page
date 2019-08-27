@@ -1,0 +1,11 @@
+#contactName {
+    text-align: center;
+}
+#contactPhoto {
+    display: block;
+    margin: 0 auto;
+}
+#contactDescription {
+    text-align: center;
+    margin: 20px;
+}
