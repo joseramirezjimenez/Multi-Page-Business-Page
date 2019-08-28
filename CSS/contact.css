@@ -1,3 +1,7 @@
+body[
+    font-family: 'Ubuntu', sans-serif;
+]
+
 #contactName {
     text-align: center;
 }
@@ -8,4 +12,8 @@
 #contactDescription {
     text-align: center;
     margin: 20px;
+}
+#textL {
+    text-align: center;
+    margin: 34px;
 }
